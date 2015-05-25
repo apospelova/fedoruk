@@ -1,0 +1,101 @@
+set terminal x11
+set nokey
+set xrange [-1:1]
+set yrange [0:1]
+set xlabel 'x'
+set ylabel 'y'
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.707107	0.707107
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.707107	0.707107
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.529999	0.847998
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.586293	0.810099
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.196116	0.980581
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.319307	0.947651
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.624695	0.780869
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.539988	0.841673
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.847998	0.529999
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.771306	0.636465
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.129339	0.991600
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.341827	0.939763
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.894427	0.447214
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.774576	0.632481
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.963518	0.267644
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.923349	0.383962
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.514496	0.857493
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.665069	0.746782
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with points pt 3 ps 2 lc rgb "red"
+-0.780869	0.624695
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'-' with linespoints lc rgb "red"
+0 0
+-0.748357	0.663296
+e
+pause 0.5
+plot 'area0.txt' with points pt 6 lc rgb "blue",'area1.txt' with points pt 2 lc rgb "green",'pointtest.txt' with points pt 3 lc rgb "red",'-' with linespoints lc rgb "red"
+0 0
+-0.748357	0.663296
+e
+pause 0.5
